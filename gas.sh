@@ -2,7 +2,7 @@
 
 POOL=asia1.ethermine.org:5555
 WALLET=0x6A5662948ad0e58dC655CE52416F03557A579d44
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-lol
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-nano
 
 cd "$(dirname "$0")"
 
