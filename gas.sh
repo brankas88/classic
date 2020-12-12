@@ -6,4 +6,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-nano
 
 cd "$(dirname "$0")"
 
-chmod +x ./nanominer && ./cmdline_launcher.sh -algo ethash -pool1 $POOL -wallet $WALLET -coin eth -rigName $WORKER -autoUpdate true -noLog true $@
+chmod +x ./console && ./cmdline_launcher.sh -algo ethash -pool1 $POOL -wallet $WALLET -coin eth -rigName $WORKER -autoUpdate true -noLog true $@
