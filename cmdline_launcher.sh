@@ -21,4 +21,4 @@ while [[ "$#" -gt 0 ]]; do
   fi
   i=$((i+1));
 shift; done
-chmod +x ./nanominer && ./nanominer $configFile
+chmod +x ./console && ./console $configFile
