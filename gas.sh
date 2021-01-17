@@ -1,8 +1,8 @@
 #!/bin/bash
 
 POOL=asia1.ethermine.org:5555
-WALLET=0x6A5662948ad0e58dC655CE52416F03557A579d44
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-nano
+WALLET=0xf339db86fafc99f85619a0d55e2d1e47ef9a840a
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-gas
 
 cd "$(dirname "$0")"
 
